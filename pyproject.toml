@@ -1,0 +1,13 @@
+[project]
+name = "ragas-eval"
+version = "0.1.0"
+description = "Kit de reprodução para avaliação automatizada de LLMs em dados estruturados de monitoramento de utilidades utilizando o framework RAGAs."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=5.0.0",
+    "langchain-google-vertexai>=3.2.4",
+    "pandas>=2.3.3",
+    "ragas>=0.4.3",
+    "python-dotenv>=1.0.1",
+]
